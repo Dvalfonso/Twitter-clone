@@ -5,12 +5,12 @@ using TwitterClone.Services;
 namespace TwitterClone.Controllers;
 
 [ApiController]
-[Route("user/[controller]")]
-public class UserController : ControllerBase
+[Route("api/[controller]")]
+public class UsersController : ControllerBase
 {
     private readonly UserService _userService;
 
-    public UserController(UserService userService)
+    public UsersController(UserService userService)
     {
         this._userService = userService;
     }
@@ -22,7 +22,7 @@ public class UserController : ControllerBase
     }
     
     [HttpGet("{id}")]
-    public ActionResult<IEnumerable<User>> GetUserById(int id)
+    public ActionResult<User> GetUserById(int id)
     {
         return Ok(_userService.GetUserWithTweets(id));
     }

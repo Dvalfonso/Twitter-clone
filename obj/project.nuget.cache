@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Tw6NEoB4Vpg=",
+  "dgSpecHash": "LYW87LyNPz0F9MEpKFMWB6Ucwqt8UJl7jDVbMsbgYd1eAyOwnazwT+giv77FvbxbfMJd7HliF+J/h6UAX6RG8Q==",
   "success": true,
   "projectFilePath": "/home/david/csharp/TwitterClone/TwitterClone.csproj",
   "expectedPackageFiles": [
@@ -57,15 +57,5 @@
     "/home/david/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512",
     "/home/david/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.19/microsoft.aspnetcore.app.ref.8.0.19.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "message": "Error occurred while getting package vulnerability data: Resource temporarily unavailable (api.nuget.org:443)",
-      "projectPath": "/home/david/csharp/TwitterClone/TwitterClone.csproj",
-      "warningLevel": 1,
-      "filePath": "/home/david/csharp/TwitterClone/TwitterClone.csproj",
-      "targetGraphs": []
-    }
-  ]
+  "logs": []
 }
