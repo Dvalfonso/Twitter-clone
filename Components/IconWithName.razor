@@ -1,0 +1,12 @@
+@code {
+    [Parameter]
+    public string IconClass { get; set; } = "fas fa-info-circle";
+
+    [Parameter]
+    public string Name { get; set; } = "Nombre";
+}
+
+<div class="icon-with-name" style="display: flex; align-items: center; gap: 0.5rem;">
+    <i class="@IconClass" aria-hidden="true"></i>
+    <span>@Name</span>
+</div>

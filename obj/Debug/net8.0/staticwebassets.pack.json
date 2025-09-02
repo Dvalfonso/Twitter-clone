@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "/home/david/csharp/TwitterClone/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/home/david/csharp/TwitterClone/wwwroot/css/home.css",
+      "PackagePath": "staticwebassets/css/home.css"
+    },
+    {
+      "Id": "/home/david/csharp/TwitterClone/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.TwitterClone.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.TwitterClone.props",
+      "PackagePath": "build\\TwitterClone.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.TwitterClone.props",
+      "PackagePath": "buildMultiTargeting\\TwitterClone.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.TwitterClone.props",
+      "PackagePath": "buildTransitive\\TwitterClone.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

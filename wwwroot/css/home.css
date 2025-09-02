@@ -1,0 +1,118 @@
+html, body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* evitar scroll horizontal global */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  outline: none;
+}
+
+.page-wrapper {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0 auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 0 auto;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden; /* evitar scroll interno */
+  padding: 0; /* espacio interno */
+  min-height: 100vh; /* opcional: que ocupe toda la pantalla */
+}
+
+.col {
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  min-width: 0; /* importante para que flex no se expanda de más */
+  overflow-wrap: break-word;
+}
+
+.left-bar {
+  padding-left: 2rem;
+}
+
+.left-bar,
+.right-bar {
+  flex: 0 0 20%;
+}
+
+.feed-container {
+  flex: 1 1 auto;
+  background-color: #ddd;
+}
+
+.left-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.2rem;
+}
+
+.item-left {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: inherit;
+  transition: background-color 0.2s ease;
+}
+
+.item-left:hover {
+  background-color: #ddd;
+}
+
+.item-logo {
+  font-size: 2rem;
+}
+
+.icon-with-name {
+  font-size: 1.3rem;
+}
+
+.post-button {
+  margin-top: 1rem;
+  display: flex;               /* igual que item-left, para alinear contenido */
+  justify-content: center;     /* centra el texto horizontalmente */
+  align-items: center;         /* centra el texto verticalmente */
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  width: 100%;                  /* ocupa todo el ancho disponible en la columna */
+  box-sizing: border-box;       /* incluye el padding en el ancho */
+  transition: background-color 0.2s ease;
+}
+
+.post-button:hover {
+  background-color: #333;       /* un gris oscuro al pasar el mouse */
+}
+
+/* Responsive: apilar columnas en pantallas chicas */
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+  }
+  .left-bar,
+  .right-bar,
+  .feed-container {
+    flex: 1 1 auto;
+    width: 100%;
+  }
+}

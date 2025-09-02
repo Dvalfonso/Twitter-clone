@@ -1,0 +1,26 @@
+@using TwitterClone.Models
+@inject HttpClient Http
+
+@if (user is null)
+{
+    <p>Cargando...</p>
+}
+else
+{
+    <div class="user-card">
+        <img src="@user.PhotoUrl" alt="Foto de @user.AccountName" class="profile-photo" />
+        <div class="user-info">
+            <h3>@user.name</h3>
+        </div>
+    </div>
+}
+
+@code {
+    private User user;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Llamar al backend (asegúrate de que la URL sea correcta)
+        user = await Http.GetFromJsonAsync<User>("https://localhost:5001/api/user/1");
+    }
+}

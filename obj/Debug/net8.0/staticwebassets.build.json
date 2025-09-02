@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "nWtLAWVr7y/1sE9XnwyZGFcuBWDTo5ApfzJsZ9pqF4Q=",
+  "Source": "TwitterClone",
+  "BasePath": "_content/TwitterClone",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TwitterClone/wwwroot",
+      "Source": "TwitterClone",
+      "ContentRoot": "/home/david/csharp/TwitterClone/wwwroot/",
+      "BasePath": "_content/TwitterClone",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/david/csharp/TwitterClone/wwwroot/app.css",
+      "SourceId": "TwitterClone",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/david/csharp/TwitterClone/wwwroot/",
+      "BasePath": "_content/TwitterClone",
+      "RelativePath": "app.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/app.css"
+    },
+    {
+      "Identity": "/home/david/csharp/TwitterClone/wwwroot/css/home.css",
+      "SourceId": "TwitterClone",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/david/csharp/TwitterClone/wwwroot/",
+      "BasePath": "_content/TwitterClone",
+      "RelativePath": "css/home.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/home.css"
+    },
+    {
+      "Identity": "/home/david/csharp/TwitterClone/wwwroot/favicon.png",
+      "SourceId": "TwitterClone",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/david/csharp/TwitterClone/wwwroot/",
+      "BasePath": "_content/TwitterClone",
+      "RelativePath": "favicon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/favicon.png"
+    }
+  ]
+}
